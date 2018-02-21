@@ -1,0 +1,9 @@
+    if (person == 'me') {
+        ctx.reply("I will help you");
+    }
+    else if (person == 'you') {
+        ctx.reply("I dont need help");
+    }
+    else {
+        ctx.reply('who is ' + ctx.message);
+    }

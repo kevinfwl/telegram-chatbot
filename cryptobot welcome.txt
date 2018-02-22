@@ -1,0 +1,32 @@
+Welcome to cryptobot!
+Cryptobot is design to help you attain up to date information about cryptocurrencies as well as
+helping you keep track of the progress of the online trading market.
+
+Commands:
+
+/search (crpyto name) (spec - optional)
+
+Searches a specific/general information about the crypto currency, highlighted by crypto name.
+
+/compare (crypto name 1) (crypto name 2) (spec - optional)
+
+Compares two crypto currencies generally or in one aspect (with the specification).
+
+Specs:
+Specifications specifc informations about a crpyto. The available specifications are
+listed below.
+
+price - price of the cryptocurrency in USD
+symbol - symbol of the cryptocurrency 
+24hvolume - the volume that is circulating in the market for the last 24 hr
+marketcap - total amount of crypto that is in the market
+total_supply - the upper limit of crpyto that can be traded in max supply
+available_supply - the supply that is currently available
+1h - % change in price in the past hour
+1d - % change in price in the past day
+7d - % change in price in the past week
+
+Example: to find the price of bitoin one can use the command
+[/search bitcoin price]
+
+More features will be implemented shortly...
